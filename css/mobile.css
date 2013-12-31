@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+.wrapper {
+	width: 100%;
+}
+header {
+	width: 100%;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 0px;
+}
+
+.page_nav{
+	display: none;	
+}
+.mobile_menu {
+	display: block;
+	width: 100%;
+}
+.mobile_menu ul{
+	width: 100%;
+	display: block;
+}
+.mobile_menu li {
+	float: left;
+	width: 50px;
+	text-align: center;
+}
+.mobile_menu li:first-child {
+	width: 35%;
+}
+.mobile_menu a {
+	text-decoration: none;
+	color: black;
+}
+.mobile_menu a:focus,
+.mobile_menu a:active,
+.mobile_menu a:hover {
+	color: #8e9092;
+}
+.mobile_menu img {
+	margin-bottom: 20px;
+}
+.mobile_menu select {
+	  display: block;
+	  outline: none;
+	  width: 80%;
+	  margin: 0 auto;
+	  font-family: Arial, Helvetica, sans-serif;
+}
+.content {
+	padding-left: 30px;
+}
+.content_left,
+.content_right {
+	width: 100%;
+}
+.documentation,
+.license_form{
+	margin-top: 50px;
+}
+.footer_content {
+	padding-left: 8%;
+	padding-right: 2%;
+}
+footer .footer_links,
+footer .twitter,
+footer .newsletter {
+	width: 90%;
+	padding-top: 40px;
+}
+footer .twitter span {
+    padding-left: 30%;
+}
+footer .copyright {
+	padding-left: 2%;
+	padding-right: 2%;
+	font-size: 12px;
+	line-height: 20px;
+}
+.white-popup {
+	left: 3%;
+}
+.pop_content .pop_img_right img {
+	width: 100%;
+	height: auto;
+}
+@media only screen and (min-width:321px) and (max-width:360px) {
+.media_list .medias {
+	padding-left: 25%;
+}
+.content {
+	padding-left: 20px;
+}
+}

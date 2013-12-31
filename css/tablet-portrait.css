@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+.wrapper {
+	width: 100%;
+}
+header {
+	width: 100%;
+	padding-left: 0px;
+}
+.page_nav a {
+	font-size: 13px;
+}
+.page_nav li:first-child {
+	border-left: 1px solid #dcdcdc;
+	padding-left: 2%;
+    width: 18%;
+}
+.page_nav li.link {
+	width: 13%;
+}
+.page_nav .media {
+	width: 50px;
+	padding-top: 15px;
+	border-right: none;
+}
+.page_nav .first_media {
+	width: 60%;
+}
+
+.content_left,
+.content_right {
+	width: 100%;
+}
+.documentation,
+.license_form{
+	margin-top: 50px;
+}
+.footer_content {
+	padding-left: 15%;
+	padding-right: 5%;
+}
+footer .footer_links,
+footer .twitter,
+footer .newsletter {
+	width: 80%;
+	padding-top: 40px;
+}
+footer .copyright {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.white-popup {
+	left: 3%;
+}
+@media only screen and (min-width:481px) and (max-width:680px) {
+.page_nav a {
+    font-size: 12px;
+}
+.company_name {
+	display: none;
+}
+.page_nav li.link {
+    width: 16%;
+}
+.page_nav li:first-child {
+	width: 8%;
+	padding-right: 1%;
+	border-right: none;
+}
+.page_nav li#news {
+    width: 10%;
+}
+.page_nav .first_media {
+	width: 50%;
+}
+}
